@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__ace-tool__search_context",
+      "Bash(mvn spring-boot:run:*)",
+      "Bash(mvn clean install:*)",
+      "Bash(curl:*)",
+      "Bash(mysql:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(where:*)"
+    ]
+  }
+}
