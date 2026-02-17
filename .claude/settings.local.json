@@ -1,14 +1,37 @@
 {
   "permissions": {
     "allow": [
-      "mcp__ace-tool__search_context",
-      "Bash(mvn spring-boot:run:*)",
-      "Bash(mvn clean install:*)",
-      "Bash(curl:*)",
-      "Bash(mysql:*)",
       "Bash(netstat:*)",
       "Bash(findstr:*)",
-      "Bash(where:*)"
+      "Bash(start cmd /k \"npm run dev\")",
+      "Bash(timeout /t 3)",
+      "Bash(curl:*)",
+      "Bash(tasklist:*)",
+      "Bash(mysql:*)",
+      "Bash(test:*)",
+      "Bash(npm run dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(mvn clean package:*)",
+      "Bash(start cmd /k \"java -jar housekeeping-system-1.0.0.jar\")",
+      "Bash(java -jar:*)",
+      "Bash(mvn package:*)",
+      "Bash($env:Path = \"C:\\\\Users\\\\root\\\\.local\\\\bin;$env:Path\")",
+      "Bash(uv --version:*)",
+      "Bash(if exist target*.jar del /F /Q target*.jar)",
+      "Bash(if exist target*.original del /F /Q target*.original)",
+      "Bash(mvn clean install:*)",
+      "Bash(ls:*)",
+      "Bash(start cmd /k java -jar housekeeping-system-1.0.0.jar)",
+      "Bash(timeout /t 8)",
+      "Bash(./start.bat)",
+      "Bash(mvn install:*)",
+      "Bash(dir:*)",
+      "Bash(grep:*)",
+      "Bash(cmd //c \"taskkill /PID 31512 /F\")",
+      "Bash(cmd //c \"taskkill /PID 22496 /F\")",
+      "Bash(cmd //c \"taskkill /PID 17472 /F\")",
+      "Bash(cmd //c \"taskkill /PID 13564 /F\")",
+      "Bash(cmd //c \"taskkill /PID 37440 /F\")"
     ]
   }
 }
